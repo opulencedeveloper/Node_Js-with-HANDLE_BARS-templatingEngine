@@ -5,18 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    {{!-- this pageTitle is passed in from the file that uses this template, which got the pageTitle from where it was rendered --}}
     <title>{{pageTitle}}</title>
     <link rel="stylesheet" href="/css/main.css">
      {{#if formsCSS}}
         <link rel="stylesheet" href="/css/forms.css">
 
-    {{!-- Closing the if Statement --}}
     {{/if}}
     {{#if productCSS}}
         <link rel="stylesheet" href="/css/product.css">
 
-    {{!-- Closing the if Statement --}}
     {{/if}}
 </head>
 
@@ -29,7 +26,6 @@
             </ul>
         </nav>
     </header>
-    {{!-- 3 curl-braces is for place-holder --}}
     {{{ body }}}
 </body>
 
